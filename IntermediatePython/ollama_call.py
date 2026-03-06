@@ -6,7 +6,7 @@ from ollama import ChatResponse
 ollama.api_base = 'http://localhost:11435'
 
 response: ChatResponse = chat(
-    model="qwen2.5:3b",
+    model="qwen3.5:",
     messages=[
         {
             "role": "system",
